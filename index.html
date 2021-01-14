@@ -16,33 +16,26 @@
 
 <body>
     <header>
-        <div class="container">
+        <section class="container navigation">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">
-                    <img src="icon/logo2.png" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#product">Product</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact-us">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about-uS">About US</a>
-                        </li>
-                    </ul>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="icon/logo2.png" class="w-50" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  justify-content-end  fw-bold" id="navbarNavAltMarkup">
+                        <div class="navbar-nav gap-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </div>
+                    </div>
                 </div>
             </nav>
-        </div>
+        </section>
     </header>
 
     <main class="container">
@@ -62,37 +55,152 @@
         </section>
 
         <section class="container casual-shoes  mt-5">
-            <div class="card-deck">
-                <div class="card">
-                    <img class="card-img-top" src="images/shoe2.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Nike Shoe</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut incidunt quisquam, maxime fugiat tempore nihil?</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </div>
-                </div>
-                <div class="card">
-                    <img class="card-img-top" src="images/shoe3.png" alt=Card image cap>
-                    <div class="card-body">
-                        <h5 class="card-title">Sneakers Skate Shoe</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, iure illum eveniet ut dolorum veritatis.</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+            <h1>Casual Shoes</h1> <br>
+            <div class="row  row-cols-1 row-cols-md-3 g-4 al">
+                <div class="col">
+                    <div class="card shoe-card h-100 ">
+                        <img src="images/shoe2.png" class="card-img-top" alt="Nike Shoe">
+                        <div class="card-body">
+
+                        </div>
+                        <div class="card-footer shoe-card-footer">
+                            <h5 class="card-title">Nike Shoe</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci
+                                eos obcaecati expedita, reiciendis delectus!</p>
+                            <p class="d-flex justify-content-between"><span class="price">$234</span><button
+                                    class="btn btn-primary btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    Now</button></p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="images/shoe4.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Sneakers Basketball shoe</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni molestiae esse, consequatur autem nobis illum?</p>
-                    </div>
-                    <div class="card-footer">
-                        <small class="text-muted">Last updated 3 mins ago</small>
+                <div class="col">
+                    <div class="card shoe-card h-100">
+                        <img src="images/shoe3.png" class="card-img-top" alt="Sneakers Skate Shoe">
+                        <div class="card-body">
+
+                        </div>
+                        <div class="card-footer shoe-card-footer">
+                            <h5 class="card-title">Sneakers Skate Shoe</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, porro
+                                exercitationem atque mollitia expedita sequi.</p>
+                            <p class="d-flex justify-content-between"><span class="price">$234</span><button
+                                    class="btn btn-primary btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    Now</button></p>
+                        </div>
                     </div>
                 </div>
+                <div class="col">
+                    <div class="card shoe-card h-100">
+                        <img src="images/shoe4.png" class="card-img-top" alt="Sneakers Basketball shoe">
+                        <div class="card-body">
+
+                        </div>
+                        <div class="card-footer shoe-card-footer">
+                            <h5 class="card-title">Sneakers Basketball shoe</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
+                                rerum laborum, nisi illo perspiciatis modi!</p>
+
+                            <p class="d-flex justify-content-between"><span class="price">$234</span><button
+                                    class="btn-lg btn btn-primary cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    Now</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container formal-shoes  mt-5">
+            <h1>Formal Shoes</h1> <br>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card shoe-card h-100">
+                        <img src="images/shoe5.png" class="card-img-top" alt="Nike Shoe">
+                        <div class="card-body">
+
+                        </div>
+                        <div class="card-footer shoe-card-footer">
+                            <h5 class="card-title">Nike Shoe</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci
+                                eos obcaecati expedita, reiciendis delectus!</p>
+                            <p class="d-flex justify-content-between"><span class="price">$234</span><button
+                                    class="btn btn-primary btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    Now</button></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shoe-card h-100 ">
+                        <img src="images/shoe6.png" class="card-img-top" alt="Sneakers Skate Shoe">
+                        <div class="card-body">
+
+                        </div>
+                        <div class="card-footer shoe-card-footer">
+                            <h5 class="card-title">Sneakers Skate Shoe</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, porro
+                                exercitationem atque mollitia expedita sequi.</p>
+                            <p class="d-flex justify-content-between"><span class="price">$234</span><button
+                                    class="btn-lg btn btn-primary cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    Now</button></p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shoe-card h-100 ">
+                        <img src="images/shoe7.png" class="card-img-top" alt="Sneakers Basketball shoe">
+                        <div class="card-body">
+
+                        </div>
+                        <div class="card-footer shoe-card-footer">
+                            <h5 class="card-title shoe-name">Sneakers Basketball shoe</h5>
+                            <p class="card-text shoe-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Consequuntur
+                                rerum laborum, nisi illo perspiciatis modi!</p>
+
+                            <p class="d-flex justify-content-between"><span class="price">$234</span><button
+                                    class="btn btn-primary btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    Now</button></p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row p-5  d-flex justify-content-center">
+                <div class="col-md-6">
+                    <div class="row row-3 ">
+                        <div class="row down-left shadow mt-2 d-flex justify-content-between"><img src="icon/contact.png" alt="">
+                            <h3>Find the Perfect Fit</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sequi. Quasi
+                                ipsam est eum exercitationem aperiam aliquam non, veniam reiciendis!</p>
+
+                        </div>
+                        <div class="row down-left shadow mt-2"><img src="icon/find.png" alt="">
+                            <h3>Free Exchanges</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente culpa maxime quisquam
+                                ea iure iusto sint! Odio repellat distinctio quaerat?</p>
+                        </div>
+                        <div class="row down-left shadow mt-2 "><img src="icon/free.png" alt="">
+                            <h3>Contact Our Seller</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum fuga quis rem eum aliquid
+                                ab hic maxime molestias sit labore?</p>
+                        </div>
+
+                    </div>
+                </div>
+                        <div class="col-md-6  ">
+                <div class="row row-3">
+                    <img class="final-image" src="icon/xml.png" alt="">
+                </div>
+            </div>
+            
+                
+            </div>
+            </div>
+
             </div>
         </section>
     </main>

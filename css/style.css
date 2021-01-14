@@ -5,6 +5,10 @@ body{
     color: #FA804C;
     
 }
+
+.top-part, .navigation{
+    background-color: #FFF9F4;
+}
 .infinity-run{
     color: #363958;
    
@@ -15,4 +19,39 @@ body{
 }
 .casual-shoes img{
     width: 100px;
+    
+}
+.shoe-card{
+    border: 0;
+}
+h5{
+    color: #363958;
+    font-weight: bold;
+    font-size: 2em;
+}
+.shoe-details{
+    font-size: 20px;
+}
+.shoe-card img{
+    width: 400px;
+    height: 400px;
+    background-color: #F1F1F1;
+    border-radius: 5%;
+    
+}
+.shoe-card-footer{
+    background-color: white;
+    border: 0;
+}
+.down-left img{
+    width: 100px;
+}
+.final-image{
+    width: 400px;
+    padding-top: 50%;
+}
+.price{
+    color: #FA804C;
+    font-weight: bold;
+    font-size: 2em;
 }
