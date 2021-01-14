@@ -1,241 +1,244 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-}
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
-.shop-name{
+
+.shop-name {
     color: #FA804C;
     font-weight: bolder;
     font-size: 65px;
-    
-    
 }
-.product-names{
+
+.infinity-run {
+    color: #363958;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.product-names {
     color: #363958;
     font-size: 40px;
     font-weight: 800;
 }
 
-.top-part{
+.top-part {
     background-color: #FFF9F4;
 }
 
-.infinity-run{
-    color: #363958;
-    font-weight: bolder;
-    font-size: 60px;
-   
-}
-.all-paragraph{
+.all-paragraph {
     font-size: 15px;
     font-weight: bolder;
-    
 }
-.hero img{
+
+.hero img {
     width: 500px;
-    
 }
-.card img{
+
+.card img {
     width: 50%;
 }
-.casual-shoes img{
+
+.casual-shoes img {
     width: 100px;
-    
 }
-.shoe-card{
+
+.shoe-card {
     border: 0;
 }
-h5{
+
+h5 {
     color: #363958;
     font-weight: bold;
     font-size: 2em;
 }
-.shoe-details{
+
+.shoe-details {
     font-size: 20px;
 }
-.shoe-card img{
+
+.shoe-card img {
     width: 400px;
     height: 400px;
     background-color: #F1F1F1;
     border-radius: 5%;
-    
 }
-.shoe-card-footer{
+
+.shoe-card-footer {
     background-color: white;
     border: 0;
 }
-.down-left img{
+
+.down-left img {
     width: 100px;
 }
-.final-image{
+
+.final-image {
     width: 400px;
     padding-top: 50%;
 }
-.price{
+
+.price {
     color: #FA804C;
     font-weight: bold;
     font-size: 2em;
 }
-button{
-   background-color:#001aff;
-   color: white;
-   border: 0;
-   border-radius: 5%;
+
+button {
+    background-color: #001aff;
+    color: white;
+    border: 0;
+    border-radius: 5%;
 }
 
 
 /* about */
-.cart-icon img{
+
+.cart-icon img {
     width: 100%;
 }
-.about-image{
+
+.about-image {
     background-color: #ffffff;
     border-radius: 0.3em;
     margin: 0.4em;
 }
-.about-image-box img{
+
+.about-image-box img {
     padding: 5px;
     width: 70%;
 }
-.about-image{
+
+.about-image {
     width: 90%;
     padding: 18px 10px;
 }
-.about-title h1{
+
+.about-title h1 {
     color: #363958;
     font-size: 20px;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
 }
-/* .about-form{
-    background-color: #c7c7c7;
-    border-radius: 0.3em;
-    padding-top: 2em;
-}
-.about-form form{
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    margin: 0 auto;
-    padding-bottom: 2em;
-} */
+
 
 /* footer */
-footer{
-	margin-top: 10%;
-	text-align: center;
-	padding: 10px;
 
+footer {
+    margin-top: 10%;
+    text-align: center;
+    padding: 10px;
 }
-footer p{
-	color:#363958;
-	padding: 10px;
-	margin: 0;
-	font-weight: 700;
-	font-size: 20px;
+
+footer p {
+    color: #363958;
+    padding: 10px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 20px;
 }
+
 
 /* subscribe */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
-body{
-	padding: 0;
-	margin: 0;
-	font-family: "Open Sans";
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans";
 }
-h1{
-	text-align: center;
-	font-size: 36px;
-}
-h3{
-	text-align: center;
-	font-size: 30px;
-	padding: 20px;
-	font-weight: 400;
-	letter-spacing: 1px;
 
+h1 {
+    text-align: center;
+    font-size: 36px;
 }
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
 input[type=text] {
-    
     padding: 12px 20px;
     margin: 9px 0;
     box-sizing: border-box;
     border-radius: 10px;
     outline: none;
     width: 40%;
-    height:20%;
-    boredr:1px solid #7c7b7b;
+    height: 20%;
+    boredr: 1px solid #7c7b7b;
 }
+
 input[type=text]:hover {
-	border:1px solid #000;
-	transition: 6s;
+    border: 1px solid #000;
+    transition: 6s;
 }
-::placeholder { 
+
+::placeholder {
     color: #000;
     opacity: 1;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-
-
-}
-button{
-	height: 50px;
-	padding: 0;
-	margin: 0;
-	
-}
-.btn{
-	border-radius: 30px;
-	width: 14%;
-	margin-left: 5px;
-	font-size: 20px;
-
 }
 
-
-
-@media(max-width: 992px){
-	.btn{
-		width: 20%
-	}
-	input[type=text]{
-		width: 50%;
-	}
+button {
+    height: 50px;
+    padding: 0;
+    margin: 0;
 }
-@media(max-width: 768px){
-	.btn{
-		width: 40%
-	}
-	input[type=text]{
-		width: 90%;
-	}
-}
-@media(max-width: 440px){
-	.btn{
-		width: 50%;
-		font-size: 18px;
-	}
-	input[type=text]{
-		width: 100%;
-	}
-	h3{
-		font-size: 22px;
-	}
-}
-@media(max-width: 373px){
-	h3{
-		font-size: 20px;
-		font-weight: 600;
-	}
-	h1{
-		font-size: 28px;
-		font-weight: 400;
-	}
 
+.btn {
+    border-radius: 30px;
+    width: 14%;
+    margin-left: 5px;
+    font-size: 20px;
+}
 
+@media(max-width: 992px) {
+    .btn {
+        width: 20%
+    }
+    input[type=text] {
+        width: 50%;
+    }
+}
+
+@media(max-width: 768px) {
+    .btn {
+        width: 40%
+    }
+    input[type=text] {
+        width: 90%;
+    }
+}
+
+@media(max-width: 440px) {
+    .btn {
+        width: 50%;
+        font-size: 18px;
+    }
+    input[type=text] {
+        width: 100%;
+    }
+    h3 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width: 373px) {
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    h1 {
+        font-size: 28px;
+        font-weight: 400;
+    }
 }
