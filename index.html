@@ -16,6 +16,7 @@
 
 <body>
     <header>
+        
         <section class="container navigation">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
@@ -27,37 +28,37 @@
                     </button>
                     <div class="collapse navbar-collapse  justify-content-end  fw-bold" id="navbarNavAltMarkup">
                         <div class="navbar-nav gap-3">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Features</a>
-                            <a class="nav-link" href="#">Pricing</a>
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            <a class="nav-link" href="#product">Products</a>
+                            <a class="nav-link" href="#about">About Us</a>
+                            <a class="nav-link" href="#contact">Contact us</a>
                         </div>
                     </div>
                 </div>
             </nav>
         </section>
     </header>
-
+    
     <main class="container">
         <section class="top-part">
-            <div class="row align-items-center">
-                <div class="col-6">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-6 justify-content-center">
                     <img src="images/shoe1.png" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-md-6 justify-content-center">
                     <h1><span class="shop-name">KickaShoe</span></h1>
                     <h1><span class="infinity-run">Infinity Run 2</span></h1>
                     <p class=" font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
                         doloremque sed quia reprehenderit, ab itaque ipsam odit similique fugit quis?</p>
-                    <button class="btn btn-primary "><i class="fas fa-shopping-cart"></i> Buy Now</button>
+                    <button class="btn-lg card-button "><i class="fas fa-shopping-cart"></i> Buy Now</button>
                 </div>
             </div>
         </section>
-
-        <section class="container casual-shoes  mt-5">
+        
+        <section class="container casual-shoes  mt-5"  id="product">
             <h1>Casual Shoes</h1> <br>
             <div class="row  row-cols-1 row-cols-md-3 g-4 al">
-                <div class="col">
+                <div class="col ">
                     <div class="card shoe-card h-100 ">
                         <img src="images/shoe2.png" class="card-img-top" alt="Nike Shoe">
                         <div class="card-body">
@@ -68,7 +69,7 @@
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci
                                 eos obcaecati expedita, reiciendis delectus!</p>
                             <p class="d-flex justify-content-between"><span class="price">$234</span><button
-                                    class="btn btn-primary btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    class=" btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
                                     Now</button></p>
                         </div>
                     </div>
@@ -84,7 +85,7 @@
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, porro
                                 exercitationem atque mollitia expedita sequi.</p>
                             <p class="d-flex justify-content-between"><span class="price">$234</span><button
-                                    class="btn btn-primary btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    class=" btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
                                     Now</button></p>
                         </div>
                     </div>
@@ -101,15 +102,16 @@
                                 rerum laborum, nisi illo perspiciatis modi!</p>
 
                             <p class="d-flex justify-content-between"><span class="price">$234</span><button
-                                    class="btn-lg btn btn-primary cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    class="btn-lg  cart-button"><i class="fas fa-shopping-cart"></i> Buy
                                     Now</button></p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="container formal-shoes  mt-5">
+        
+        
+        <section class="container formal-shoes  mt-5"> 
             <h1>Formal Shoes</h1> <br>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -123,7 +125,7 @@
                             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi adipisci
                                 eos obcaecati expedita, reiciendis delectus!</p>
                             <p class="d-flex justify-content-between"><span class="price">$234</span><button
-                                    class="btn btn-primary btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    class=" btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
                                     Now</button></p>
 
                         </div>
@@ -140,7 +142,7 @@
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, porro
                                 exercitationem atque mollitia expedita sequi.</p>
                             <p class="d-flex justify-content-between"><span class="price">$234</span><button
-                                    class="btn-lg btn btn-primary cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    class="btn-lg  cart-button"><i class="fas fa-shopping-cart"></i> Buy
                                     Now</button></p>
 
                         </div>
@@ -159,7 +161,7 @@
                                 rerum laborum, nisi illo perspiciatis modi!</p>
 
                             <p class="d-flex justify-content-between"><span class="price">$234</span><button
-                                    class="btn btn-primary btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
+                                    class=" btn-lg cart-button"><i class="fas fa-shopping-cart"></i> Buy
                                     Now</button></p>
 
                         </div>
@@ -167,45 +169,50 @@
                 </div>
             </div>
         </section>
-
-        <section class="container">
-            <div class="row p-5  d-flex justify-content-center">
-                <div class="col-md-6">
-                    <div class="row row-3 ">
-                        <div class="row down-left shadow mt-2 d-flex justify-content-between"><img src="icon/contact.png" alt="">
-                            <h3>Find the Perfect Fit</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, sequi. Quasi
-                                ipsam est eum exercitationem aperiam aliquam non, veniam reiciendis!</p>
-
+        
+        <section id="about" class="pt-5 pb-5">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="row row-cols-1 g-4">
+                            <div class="col about-image shadow-lg d-flex justify-content-evenly align-items-center ">
+                                <div class="col-md-3 about-image-box">
+                                    <img src="icon/find.png" alt="">
+                                </div>
+                                <div class="col-md-8 about-title">
+                                    <h1>Find the Perfect Fit</h1>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam libero sed reiciendis ea delectus eius.</p>
+                                </div>
+                            </div>
+                            <div class="col about-image shadow-lg d-flex justify-content-evenly align-items-center ">
+                                <div class="col-md-3 about-image-box">
+                                    <img src="icon/free.png" alt="">
+                                </div>
+                                <div class="col-md-8 about-title">
+                                    <h1>Find the Perfect Fit</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, corrupti. Officia nulla laudantium adipisci provident!</p>
+                                </div>
+                            </div>
+                            <div class="col about-image shadow-lg d-flex justify-content-evenly align-items-center">
+                                <div class="col-md-3 about-image-box">
+                                    <img src="icon/contact.png" alt="">
+                                </div>
+                                <div class="col-md-8 about-title">
+                                    <h1>Contact Our Seller</h1>
+                                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur reiciendis eum dignissimos, tempore qui vel.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="row down-left shadow mt-2"><img src="icon/find.png" alt="">
-                            <h3>Free Exchanges</h3>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente culpa maxime quisquam
-                                ea iure iusto sint! Odio repellat distinctio quaerat?</p>
-                        </div>
-                        <div class="row down-left shadow mt-2 "><img src="icon/free.png" alt="">
-                            <h3>Contact Our Seller</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum fuga quis rem eum aliquid
-                                ab hic maxime molestias sit labore?</p>
-                        </div>
-
+                    </div>
+                    <div class="col-md-7 cart-icon d-flex justify-content-center align-items-center">
+                        <img src="icon/xml.png" alt=" ">
                     </div>
                 </div>
-                        <div class="col-md-6  ">
-                <div class="row row-3">
-                    <img class="final-image" src="icon/xml.png" alt="">
-                </div>
-            </div>
-            
-                
-            </div>
-            </div>
-
             </div>
         </section>
     </main>
 
-    <!-- Columns are always 50% wide, on mobile and desktop -->
+  
 
 
 

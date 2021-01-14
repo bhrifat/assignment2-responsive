@@ -9,6 +9,7 @@ body{
 .top-part, .navigation{
     background-color: #FFF9F4;
 }
+
 .infinity-run{
     color: #363958;
    
@@ -54,4 +55,47 @@ h5{
     color: #FA804C;
     font-weight: bold;
     font-size: 2em;
+}
+button{
+   background-color:#001aff;
+   color: white;
+   border: 0;
+   border-radius: 5%;
+}
+
+
+
+.cart-icon img{
+    width: 100%;
+}
+.about-image{
+    background-color: #ffffff;
+    border-radius: 0.3em;
+    margin: 0.4em;
+}
+.about-image-box img{
+    padding: 5px;
+    width: 70%;
+}
+.about-image{
+    width: 90%;
+    padding: 18px 10px;
+}
+.about-title h1{
+    color: #363958;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+.contact-form{
+    background-color: #c7c7c7;
+    border-radius: 0.3em;
+    padding-top: 2em;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-bottom: 2em;
 }
